@@ -61,16 +61,7 @@ No, the style is applied to original html markup of wordpress login page.
 
 == Changelog ==
 
-= 1.0.2 =
-
-* Fixed fatal error to yit_debug with yit themes
-
-= 1.0.1 =
-
-* Optimized images
-* Updated internal framework
-
-= 1.0.0 =
+= 0.9.0 =
 
 * Initial release
 
@@ -93,6 +84,6 @@ Full documentation is available [here](http://yithemes.com/docs-plugins/yith_cus
 
 == Upgrade notice ==
 
-= 1.0.0 =
+= 0.9.0 =
 
 Initial release
