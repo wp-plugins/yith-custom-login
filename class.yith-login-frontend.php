@@ -69,7 +69,8 @@ if( !class_exists( 'YITH_Login_Frontend' ) ) {
          * Add the mascotte image
          */
         public function add_mascotte() {
-            ?><img src="<?php echo YITH_LOGIN_URL ?>assets/images/mascotte.png" alt="Mascotte" class="mascotte" /><?php
+            if ( ! get_option( 'yith_login_mascotte', true ) ) return;
+            ?><img src="<?php echo get_option( 'yith_login_mascotte_url', YITH_LOGIN_URL . 'assets/images/mascotte.png' ) ?>" alt="Mascotte" class="mascotte" /><?php
         }
 
         /**

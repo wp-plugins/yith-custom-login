@@ -26,6 +26,20 @@ $yith_login_options = array(
                         'std' => true
                     ),
 
+                    'yith_login_mascotte' => array(
+                        'title' => 'Show Mascotte image',
+                        'description' => 'Say if you want to show the mascotte image near the login form.',
+                        'type' => 'checkbox',
+                        'std' => true
+                    ),
+
+                    'yith_login_mascotte_url' => array(
+                        'title' => 'Show Mascotte image URL',
+                        'description' => 'Set the URL for the mascote image near the login form, if you set to show it in the above option.',
+                        'type' => 'upload',
+                        'std' => YITH_LOGIN_URL . 'assets/images/mascotte.png'
+                    ),
+
                     'yith_login_custom_style' => array(
                         'title' => 'Custom CSS',
                         'description' => 'Custom CSS Style',
