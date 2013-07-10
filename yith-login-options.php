@@ -4,7 +4,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH Custom Login
- * @version 0.9.0
+ * @version 1.0.0
  */
 
 if ( !defined( 'YITH_LOGIN' ) ) { exit; } // Exit if accessed directly
@@ -21,21 +21,21 @@ $yith_login_options = array(
                 'fields' => array(
                     'yith_login_enable' => array(
                         'title' => __('Enable Custom Login', 'yit'),
-                        'description' => __( 'Enabling this, you will be able to have a custom style for the login page.' ),
+                        'description' => __( 'Enabling this, you will be able to have a custom style for the login page.', 'yit' ),
                         'type' => 'checkbox',
                         'std' => true
                     ),
 
                     'yith_login_mascotte' => array(
-                        'title' => 'Show Mascotte image',
-                        'description' => 'Say if you want to show the mascotte image near the login form.',
+                        'title' => __( 'Show Mascotte image', 'yit' ),
+                        'description' => __( 'Say if you want to show the mascotte image near the login form.', 'yit' ),
                         'type' => 'checkbox',
                         'std' => true
                     ),
 
                     'yith_login_mascotte_url' => array(
-                        'title' => 'Show Mascotte image URL',
-                        'description' => 'Set the URL for the mascote image near the login form, if you set to show it in the above option.',
+                        'title' => __( 'Mascotte image URL', 'yit' ),
+                        'description' => __( 'Set the URL for the mascote image near the login form, if you set to show it in the above option.', 'yit' ),
                         'type' => 'upload',
                         'std' => YITH_LOGIN_URL . 'assets/images/mascotte.png'
                     ),

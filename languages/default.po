@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YITH Pre-Launch\n"
-"POT-Creation-Date: 2013-05-30 10:31+0100\n"
-"PO-Revision-Date: 2013-05-30 10:31+0100\n"
+"POT-Creation-Date: 2013-07-10 10:40+0100\n"
+"PO-Revision-Date: 2013-07-10 10:40+0100\n"
 "Last-Translator: Nicola Mustone <mail@nicolamustone.it>\n"
 "Language-Team: Your Inspiration Themes <support@yithemes.com>\n"
 "Language: English\n"
@@ -39,288 +39,306 @@ msgid ""
 "Enabling this, you will be able to have a custom style for the login page."
 msgstr ""
 
-#: ../yith-login-options.php:42
-msgid "Background"
+#: ../yith-login-options.php:30
+msgid "Show Mascotte image"
 msgstr ""
 
-#: ../yith-login-options.php:45
-msgid "Background Settings"
+#: ../yith-login-options.php:31
+msgid "Say if you want to show the mascotte image near the login form."
 msgstr ""
 
-#: ../yith-login-options.php:46
-msgid "Customize the background of the page"
+#: ../yith-login-options.php:37
+msgid "Mascotte image URL"
 msgstr ""
 
-#: ../yith-login-options.php:49
-msgid "Background image"
-msgstr ""
-
-#: ../yith-login-options.php:50
-msgid "Upload or choose from your media library the background image"
-msgstr ""
-
-#: ../yith-login-options.php:55 ../yith-login-options.php:117
-msgid "Background Color"
+#: ../yith-login-options.php:38
+msgid ""
+"Set the URL for the mascote image near the login form, if you set to show it "
+"in the above option."
 msgstr ""
 
 #: ../yith-login-options.php:56
+msgid "Background"
+msgstr ""
+
+#: ../yith-login-options.php:59
+msgid "Background Settings"
+msgstr ""
+
+#: ../yith-login-options.php:60
+msgid "Customize the background of the page"
+msgstr ""
+
+#: ../yith-login-options.php:63
+msgid "Background image"
+msgstr ""
+
+#: ../yith-login-options.php:64
+msgid "Upload or choose from your media library the background image"
+msgstr ""
+
+#: ../yith-login-options.php:69 ../yith-login-options.php:131
+msgid "Background Color"
+msgstr ""
+
+#: ../yith-login-options.php:70
 msgid "Choose a background color"
 msgstr ""
 
-#: ../yith-login-options.php:61
+#: ../yith-login-options.php:75
 msgid "Background Repeat"
 msgstr ""
 
-#: ../yith-login-options.php:62
+#: ../yith-login-options.php:76
 msgid "Select the repeat mode for the background image."
 msgstr ""
 
-#: ../yith-login-options.php:66
+#: ../yith-login-options.php:80
 msgid "Repeat"
 msgstr ""
 
-#: ../yith-login-options.php:67
+#: ../yith-login-options.php:81
 msgid "Repeat Horizontally"
 msgstr ""
 
-#: ../yith-login-options.php:68
+#: ../yith-login-options.php:82
 msgid "Repeat Vertically"
 msgstr ""
 
-#: ../yith-login-options.php:69
+#: ../yith-login-options.php:83
 msgid "No Repeat"
 msgstr ""
 
-#: ../yith-login-options.php:73
+#: ../yith-login-options.php:87
 msgid "Background Position"
 msgstr ""
 
-#: ../yith-login-options.php:74
+#: ../yith-login-options.php:88
 msgid "Select the position for the background image."
 msgstr ""
 
-#: ../yith-login-options.php:77
+#: ../yith-login-options.php:91
 msgid "Center"
 msgstr ""
 
-#: ../yith-login-options.php:78
+#: ../yith-login-options.php:92
 msgid "Top left"
 msgstr ""
 
-#: ../yith-login-options.php:79
+#: ../yith-login-options.php:93
 msgid "Top center"
 msgstr ""
 
-#: ../yith-login-options.php:80
+#: ../yith-login-options.php:94
 msgid "Top right"
 msgstr ""
 
-#: ../yith-login-options.php:81
+#: ../yith-login-options.php:95
 msgid "Bottom left"
 msgstr ""
 
-#: ../yith-login-options.php:82
+#: ../yith-login-options.php:96
 msgid "Bottom center"
 msgstr ""
 
-#: ../yith-login-options.php:83
+#: ../yith-login-options.php:97
 msgid "Bottom right"
 msgstr ""
 
-#: ../yith-login-options.php:88
+#: ../yith-login-options.php:102
 msgid "Background Attachment"
 msgstr ""
 
-#: ../yith-login-options.php:89
+#: ../yith-login-options.php:103
 msgid "Select the attachment for the background image."
 msgstr ""
 
-#: ../yith-login-options.php:92
+#: ../yith-login-options.php:106
 msgid "Scroll"
 msgstr ""
 
-#: ../yith-login-options.php:93
+#: ../yith-login-options.php:107
 msgid "Fixed"
 msgstr ""
 
-#: ../yith-login-options.php:104
+#: ../yith-login-options.php:118
 msgid "Logo"
 msgstr ""
 
-#: ../yith-login-options.php:107
+#: ../yith-login-options.php:121
 msgid "Logo Settings"
 msgstr ""
 
-#: ../yith-login-options.php:108
+#: ../yith-login-options.php:122
 msgid "Customize the logo"
 msgstr ""
 
-#: ../yith-login-options.php:111
+#: ../yith-login-options.php:125
 msgid "Logo image"
 msgstr ""
 
-#: ../yith-login-options.php:112
+#: ../yith-login-options.php:126
 msgid "Upload or choose from your media library the logo image"
 msgstr ""
 
-#: ../yith-login-options.php:118
+#: ../yith-login-options.php:132
 msgid "Choose a background color for the logo"
 msgstr ""
 
-#: ../yith-login-options.php:123
+#: ../yith-login-options.php:137
 msgid "Logo width"
 msgstr ""
 
-#: ../yith-login-options.php:124
+#: ../yith-login-options.php:138
 msgid "The width of logo"
 msgstr ""
 
-#: ../yith-login-options.php:129
+#: ../yith-login-options.php:143
 msgid "Logo height"
 msgstr ""
 
-#: ../yith-login-options.php:130
+#: ../yith-login-options.php:144
 msgid "The height of logo"
 msgstr ""
 
-#: ../yith-login-options.php:141
+#: ../yith-login-options.php:155
 msgid "Form"
 msgstr ""
 
-#: ../yith-login-options.php:144
+#: ../yith-login-options.php:158
 msgid "Settings"
 msgstr ""
 
-#: ../yith-login-options.php:145
+#: ../yith-login-options.php:159
 msgid "Customize the form"
 msgstr ""
 
-#: ../yith-login-options.php:148
+#: ../yith-login-options.php:162
 msgid "Container Width"
 msgstr ""
 
-#: ../yith-login-options.php:149
+#: ../yith-login-options.php:163
 msgid "The width in pixels of the login container"
 msgstr ""
 
-#: ../yith-login-options.php:157
+#: ../yith-login-options.php:171
 msgid "Username placeholder"
 msgstr ""
 
-#: ../yith-login-options.php:158
+#: ../yith-login-options.php:172
 msgid "The placeholder for the username field"
 msgstr ""
 
-#: ../yith-login-options.php:163
+#: ../yith-login-options.php:177
 msgid "Password placeholder"
 msgstr ""
 
-#: ../yith-login-options.php:164
+#: ../yith-login-options.php:178
 msgid "The placeholder for the password field"
 msgstr ""
 
-#: ../yith-login-options.php:171
+#: ../yith-login-options.php:185
 msgid "Typography"
 msgstr ""
 
-#: ../yith-login-options.php:175
+#: ../yith-login-options.php:189
 msgid "Text of fields"
 msgstr ""
 
-#: ../yith-login-options.php:176
+#: ../yith-login-options.php:190
 msgid "The text typography for the username and password fields."
 msgstr ""
 
-#: ../yith-login-options.php:187
+#: ../yith-login-options.php:201
 msgid "General text"
 msgstr ""
 
-#: ../yith-login-options.php:188
+#: ../yith-login-options.php:202
 msgid "Set typography options for other texts (as Remember me)."
 msgstr ""
 
-#: ../yith-login-options.php:199
+#: ../yith-login-options.php:213
 msgid "Submit button text"
 msgstr ""
 
-#: ../yith-login-options.php:200
+#: ../yith-login-options.php:214
 msgid "Set typography options for the text inside submit button."
 msgstr ""
 
-#: ../yith-login-options.php:211
+#: ../yith-login-options.php:225
 msgid "Submit button text, on hover"
 msgstr ""
 
-#: ../yith-login-options.php:212
+#: ../yith-login-options.php:226
 msgid ""
 "Set typography options for the text inside submit button, when mouse hover."
 msgstr ""
 
-#: ../yith-login-options.php:219
+#: ../yith-login-options.php:233
 msgid "Colors"
 msgstr ""
 
-#: ../yith-login-options.php:223
+#: ../yith-login-options.php:237
 msgid "Fields background"
 msgstr ""
 
-#: ../yith-login-options.php:224
+#: ../yith-login-options.php:238
 msgid "The background color of the fields username and password."
 msgstr ""
 
-#: ../yith-login-options.php:229
+#: ../yith-login-options.php:243
 msgid "Fields border color"
 msgstr ""
 
-#: ../yith-login-options.php:230
+#: ../yith-login-options.php:244
 msgid "The border color of the fields username and password."
 msgstr ""
 
-#: ../yith-login-options.php:235
+#: ../yith-login-options.php:249
 msgid "Fields background, on focus"
 msgstr ""
 
-#: ../yith-login-options.php:236
+#: ../yith-login-options.php:250
 msgid "The background color of the fields username and password, on focus."
 msgstr ""
 
-#: ../yith-login-options.php:241
+#: ../yith-login-options.php:255
 msgid "Fields border color, on focus"
 msgstr ""
 
-#: ../yith-login-options.php:242
+#: ../yith-login-options.php:256
 msgid "The border color of the fields username and password, on focus."
 msgstr ""
 
-#: ../yith-login-options.php:247
+#: ../yith-login-options.php:261
 msgid "Background color of submit "
 msgstr ""
 
-#: ../yith-login-options.php:248
+#: ../yith-login-options.php:262
 msgid "The background color of submit button."
 msgstr ""
 
-#: ../yith-login-options.php:253
+#: ../yith-login-options.php:267
 msgid "Border color of submit "
 msgstr ""
 
-#: ../yith-login-options.php:254
+#: ../yith-login-options.php:268
 msgid "The border color of submit button."
 msgstr ""
 
-#: ../yith-login-options.php:259
+#: ../yith-login-options.php:273
 msgid "Background color of submit, on hover"
 msgstr ""
 
-#: ../yith-login-options.php:260
+#: ../yith-login-options.php:274
 msgid "The background color of submit button, on mouseover."
 msgstr ""
 
-#: ../yith-login-options.php:265
+#: ../yith-login-options.php:279
 msgid "Border color of submit, on hover"
 msgstr ""
 
-#: ../yith-login-options.php:266
+#: ../yith-login-options.php:280
 msgid "The border color of submit button, on mouseover."
 msgstr ""
 

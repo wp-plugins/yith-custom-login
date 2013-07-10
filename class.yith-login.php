@@ -22,7 +22,7 @@ if( !class_exists( 'YITH_Login' ) ) {
          * @var string
          * @since 0.9.0
          */
-        public $version = '0.9.0';
+        public $version = '1.0.0';
 
         /**
          * Plugin object

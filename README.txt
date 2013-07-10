@@ -4,7 +4,7 @@ Contributors: yithemes
 Tags: custom login, wordpress login, customization, themes, yit
 Requires at least: 3.5.1
 Tested up to: 3.5.1
-Stable tag: 0.9.0
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,10 @@ No, the style is applied to original html markup of wordpress login page.
 2. The general settings
 
 == Changelog ==
+
+= 1.0.0 =
+
+* Added option to show or hide the mascotte image near the form login and change its url.
 
 = 0.9.0 =
 
