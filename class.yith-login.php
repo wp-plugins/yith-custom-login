@@ -4,7 +4,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH Custom Login
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 if ( !defined( 'YITH_LOGIN' ) ) { exit; } // Exit if accessed directly
@@ -22,7 +22,7 @@ if( !class_exists( 'YITH_Login' ) ) {
          * @var string
          * @since 0.9.0
          */
-        public $version = '1.0.0';
+        public $version = '1.0.1';
 
         /**
          * Plugin object

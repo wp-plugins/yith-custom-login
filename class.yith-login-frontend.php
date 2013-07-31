@@ -4,7 +4,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH Custom Login
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 if ( !defined( 'YITH_LOGIN' ) ) { exit; } // Exit if accessed directly
