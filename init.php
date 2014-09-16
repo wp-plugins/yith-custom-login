@@ -3,7 +3,7 @@
  * Plugin Name: YITH Custom Login
  * Plugin URI: http://yithemes.com/
  * Description: YITH Custom Login allows you to customize the login and register Wordpress pages.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Your Inspiration Themes
  * Author URI: http://yithemes.com/
  * Text Domain: yit
@@ -11,7 +11,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH WooCommerce Magnifier
- * @version 1.0.1
+ * @version 1.0.2
  */
 /*  Copyright 2013  Your Inspiration Themes  (email : plugins@yithemes.com)
 
@@ -32,9 +32,7 @@ if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
 /* Include common functions */
 if( !defined('YITH_FUNCTIONS') ) {
-    require_once( 'yit-common/google_fonts.php' );
     require_once( 'yit-common/yit-functions.php' );
-    require_once( 'yit-common/yith-panel.php' );
 }
 
 load_plugin_textdomain( 'yit', false, dirname( plugin_basename( __FILE__ ) ). '/languages/' );
