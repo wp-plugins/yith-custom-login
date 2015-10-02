@@ -3,7 +3,7 @@
  * Plugin Name: YITH Custom Login
  * Plugin URI: http://yithemes.com/
  * Description: YITH Custom Login allows you to customize the login and register Wordpress pages.
- * Version: 1.0.3
+ * Version: 1.1.0
  * Author: Your Inspiration Themes
  * Author URI: http://yithemes.com/
  * Text Domain: yit
