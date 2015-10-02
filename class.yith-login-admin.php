@@ -72,8 +72,8 @@ if( !class_exists( 'YITH_Login_Admin' ) ) {
             $this->version = $version;
             $this->submenu = apply_filters( 'yith_login_submenu', array(
                 'themes.php',
-                __('YITH Custom Login', 'yit'),
-                __('Login Screen', 'yit'),
+                __('YITH Custom Login', 'yith-custom-login'),
+                __('Login Screen', 'yith-custom-login'),
                 'administrator',
                 'yith-custom-login'
             ) );

@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: custom login, wordpress login, customization, themes, yit
 Requires at least: 3.5.1
-Tested up to: 4.1.1
-Stable tag: 1.0.2
+Tested up to: 4.3
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ YITH Custom Login give you the ability to customize the login page of wordpress.
 == Description ==
 
 Install the plugin and change the default style of wordpress login. Set a pretty style to login page of your website and customize it according to your style!
-A working demo is available [here](http://plugins.yithemes.com/yith-custom-login/wp-login.php). Full documentation is available [here](http://yithemes.com/docs-plugins/yith_custom_login/).
+A working demo is available [here](http://plugins.yithemes.com/yith-custom-login/wp-login.php). Full documentation is available [here](http://yithemes.com/docs-plugins/yith_custom_login).
 
 
 = Installation =
@@ -27,18 +27,7 @@ YITH Custom Login will add a new page under Appearance -> Login Screen, where yo
 
 = Developer =
 
-Are you a developer? Want to customize the templates or the style of the plugin? Read on the [documentation](http://yithemes.com/docs-plugins/yith_custom_login/) and discover how to do that.
-
-= Support =
-
-Hi there, we have good news here: all our plugins are released for free. Wow!
-Already knew it, right?! Great, but maybe you do not know that: if you're looking for how to install the plugins or how to use them within your Wordpress installations, which is the right way to ask support?
-That's the way:
-
-* Register on http://yithemes.com
-* Go to Support > Get Support
-
-Here we provide support, not on wordpress.org were, usually we do not read topics. It's better to follow us or write on our forum!
+Are you a developer? Want to customize the templates or the style of the plugin? Read on the [documentation](http://yithemes.com/docs-plugins/yith_custom_login) and discover how to do that.
 
 == Installation ==
 
@@ -54,12 +43,26 @@ Yes, you need simply deactive the plugin to have the original wordpress template
 = Must I change the html of login page? =
 No, the style is applied to original html markup of wordpress login page.
 
+= What are the main changes in plugin translation? =
+Recently this plugin has been selected to be included in the "translate.wordpress.org" translate programme. In order to import correctly the plugin strings in the new system, we had to change the text domain form 'yit' to 'yith-custom-login'. Once the plugin will be imported in the translate.wordpress.org system, the translations of other languages will be downloaded directly from WordPress, without using any .po and .mo files. Moreover, users will be able to participate in a more direct way to plugin translations, suggesting texts in their languages in the dedicated tab on translate.wordpress.org. During this transition step, .po and .mo files will be used as always, but in order to be recognized by WordPress, they will need to have a new nomenclature, renaming them in: yith-custom-login-.po yith-woocommerce-ajax-navigation-.mo. For example, if your language files were named yit-en_GB.po and yit-en_GB.mo, you will just have to rename them respectively as yith-custom-login-en_GB.po and yith-custom-login-en_GB.mo.
+
 == Screenshots ==
 
 1. The default custom login page
 2. The general settings
 
 == Changelog ==
+
+= 1.1.0 =
+
+* Added: Support to new translate.wordpress.org program
+* Added: 'yith-custom-login' languages file
+* Updated: language file
+* Removed: All 'yit' languages file
+
+= 1.0.3 =
+
+* Fixed: Reflected Cross-Site Scripting (XSS)
 
 = 1.0.2 =
 
