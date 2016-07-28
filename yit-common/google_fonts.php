@@ -16,7 +16,7 @@ class Google_Font {
      * Generate the url for the google fonts
      */
     public function google_fonts_url() {
-        $base_url = 'http://fonts.googleapis.com/css?family=';
+        $base_url = '//fonts.googleapis.com/css?family=';
         $fonts = array();
 
         if ( empty( $this->google_fonts ) ) return;
